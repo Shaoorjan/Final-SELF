@@ -1,0 +1,8 @@
+Self is an acronym for Software Engineering Learning Framework.
+As our name implies, we are a platform that teaches software 
+engineering in a fun and engaging manner.  At Self, we believe in 
+the gamification of education for a more appealing and hands-on 
+experience. We go beyond the traditional teaching methods, as our 
+priority is to motivate students to learn more effectively. With the 
+help of our learning resources, you can enjoy self-learning at your 
+own pace.

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <title>Account</title>
+   <link rel="shortcut icon" sizes="96x96" href="favicon_package_v0.16/favicon.png">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- Bootstrap -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+     <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+   
+</head>
+<body>
+
+<!-- Navigation -->
+
+   <div class="sidebar">
+      <a href="home.html"><h2 class="about-logo">Se<span style="color:#3944BC">lf</span></h2></a>
+      <h3>user profile</h3>
+      <a href="#" class="menu"><i class="fas fa-chart-line dash-icon"></i>My dashboard</a>
+      <a href="account.html" class="sidebar-active"><i class="fas fa-user-alt dash-icon"></i>User info</a>
+      <a href="#" class="menu"><i class="fas fa-cog dash-icon"></i>Settings</a>
+      <a href="#" class="menu"><i class="fas fa-bell dash-icon"></i>Notifications</a>
+      <a href="#" class="menu"><i class="fas fa-question-circle dash-icon"></i>Support</a>
+      <a href="#" class="logout menu" onclick="signOut()" id="signOut"><img src="SVGs/logout.svg" class="dash-icon1" alt=""> Logout</a>
+   </div>
+
+
+<!-- End Navigation -->
+
+   
+      <div class="user-container">
+
+      <div style="cursor: pointer;">
+         <img class="thumbnail" src="img/dp2.jpg" alt="picture">
+         <p class="greeting">Hi Bambi <i class="fas fa-chevron-down greeting-icon"></i></p>
+        
+      </div>
+         
+         <div class="user">
+
+           <!-- <img class="thumbnail" src="img/dp1.jpg" alt="picture">
+            <p class="greeting"> Bambi Jane <span><a href="#"><i class="fas fa-chevron-down"></i></a></span></p> -->
+
+            <div class="display-pic">
+               <img class="dp" src="img/dp2.jpg" alt="picture">
+               <h1 class="name"> Bambi Jane</h1>
+               <p class="username">@BAMBIJAY</p>
+            </div>
+
+            <div class="user-info">
+
+               <div class="names">
+                  <h6 class="first">first name</h6>
+                  <h6 class="">last name</h6>
+               </div>
+
+               <div class="name-input">
+                  <input type="text" class="info-input" value="Bambi">
+                  
+                  <input type="text" class="info-input second" value="Jane">
+               </div>
+
+               <div class="contact-info">
+                  <h6>email</h6>
+                  <h6 class="">mobile phone</h6>
+               </div>
+               
+               <div class="contact-info-input">
+                  <input type="text" class="info-input" value="bambi@gmail.com">
+                  <input type="text" class="info-input second" value="(260)209-6998">
+               </div>
+
+               <div class="dob-and-education">
+                  <h6>birthday</h6>
+                  <h6 class="">education</h6>
+               </div>
+               
+               <div class="dob-input">
+                  <input type="text" class="info-input" value="02/12">
+                  <input type="text" class="info-input second" value="Graduate">
+               </div>
+
+               <button class="btn9" onclick="">Save Changes</button>
+                     
+  
+            </div>
+
+         </div>
+         
+      </div>
+
+             <!-- Photo by <a href="https://unsplash.com/@d_dmd2?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dario Didon</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+
+<!-- firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<!-- JavaScript -->
+<script src="js/form.js"></script> 
+
+<!-- jQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <!-- Bootstrap 4.5 JS -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Popper JS -->
+   <script src="js/popper.min.js"></script>
+   <!-- Font Awesome -->
+   <script src="js/all.min.js"></script>
+
+   <!-- End Script Source Files -->
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<svg id="Experiential_learning" data-name="Experiential learning" xmlns="http://www.w3.org/2000/svg" width="532" height="597" viewBox="0 0 532 597">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdfdfd;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        font-size: 38px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_29" data-name="Rectangle 29" class="cls-1">
+    <rect class="cls-3" width="532" height="597" rx="49"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="531" height="596" rx="48.5"/>
+  </g>
+  <text id="Experiential" class="cls-2" transform="translate(106 67)"><tspan x="0" y="0">EXPERIENTIAL</tspan></text>
+  <text id="learning" class="cls-2" transform="translate(152 130)"><tspan x="0" y="0">LEARNING</tspan></text>
+</svg>
